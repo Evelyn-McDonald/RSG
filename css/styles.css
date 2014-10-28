@@ -85,3 +85,23 @@ section .title {
 	border-bottom: 2px solid #ddd;
 	border-right: none;
 }
+
+#contact {
+	background: url("../assets/images/background.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+	background-color: #292929;
+	color: #a0a0a0;
+	font-size: 12px;
+	padding: 30px;
+}
+footer img {
+	padding-bottom: 15px;
+}
+footer hr {
+	border-color: #a0a0a0;
+}
