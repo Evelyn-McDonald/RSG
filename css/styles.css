@@ -86,10 +86,36 @@ section .title {
 	border-right: none;
 }
 
+.employee {
+	color: #d1d72c;
+	text-align: right;
+}
+.employee h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 #contact {
 	background: url("../assets/images/background.png");
 	background-size: cover;
     background-repeat: no-repeat;
+    color: #fff;
+    padding: 55px 60px;
+}
+.form-control {
+	background-color: transparent;
+	border-color: #fff;
+	border-radius: 0;
+	color: #fff;
+	margin-bottom: 15px;
+	resize: none;
+}
+#contact button {
+	background-color: #d1d72c;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	font-size: 16px;
 }
 
 
