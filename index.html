@@ -12,10 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<!-- Scripts -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 </head>
 
 <body>
@@ -139,7 +138,9 @@
 	</section>
 
 	<section id="about" class="container-fluid">
-		<img class="center-block title"  src="assets/images/about_us.png" />
+		<div data-animation="flipInX" data-timeout="400">
+			<img class="center-block title"  src="assets/images/about_us.png" />
+		</div>
 		<div class="row">
 			<div class="col-md-2 col-md-offset-1 employee">
 				<h3>Laurie Rankin, BCom</br></br></h3>
