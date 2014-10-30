@@ -11,14 +11,24 @@
 }
 .btn-green:hover {
 }
+.btn-green-inverse {
+	color: #aaa;
+	background-color: #fff;
+	border: 2px solid #aaa;
+}
+.btn-green-inverse:hover {
+	color: #d1d72c;
+	border: 2px solid #d1d72c;
+}
 .load {
     opacity: 1 !important;
 }
 
-.navbar a {
+.navbar-default .navbar-nav > li > a {
 	color: #b2b2b2;
+	border-bottom: 2px solid #fff;
 }
-.navbar a:hover {
+.navbar-default .navbar-nav > li > a:hover {
 	border-bottom: 2px solid #d1d72c;
 }
 .navbar-brand {
@@ -86,6 +96,26 @@ section .title {
 	border-right: none;
 }
 
+
+.carousel {
+	text-align: center;
+}
+.carousel h2 {
+	color: #d1d72c;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next  {
+	color: #d1d72c;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+
 .employee {
 	color: #d1d72c;
 	text-align: right;
@@ -100,7 +130,7 @@ section .title {
 	background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    padding: 55px 60px;
+    padding: 55px 10%;
 }
 .form-control {
 	background-color: transparent;
@@ -109,6 +139,9 @@ section .title {
 	color: #fff;
 	margin-bottom: 15px;
 	resize: none;
+}
+.form-control::-webkit-input-placeholder { 
+	color: white; 
 }
 #contact button {
 	background-color: #d1d72c;
