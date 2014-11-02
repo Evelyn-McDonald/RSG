@@ -106,15 +106,15 @@ section .title {
 	border-bottom: 2px solid #ddd;
 	border-right: none;
 }
-
-
-.carousel {
-	text-align: center;
+.tab-pane {
+	min-height: 230px;
 }
+
 .carousel h2 {
 	color: #d1d72c;
+	text-align: center;
 	font-size: 22px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 .carousel .item {
 	min-height: 400px;
@@ -128,6 +128,9 @@ section .title {
 .carousel-control.right,
 .carousel-control.left {
 	background-image: none;
+}
+.view-services {
+	text-align: center;
 }
 .service-list {
 	border: 2px solid #e1e1e1;
