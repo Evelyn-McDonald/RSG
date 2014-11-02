@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="description" content="Rankin Spence Group" />
 	<meta name="keywords" content="accounting, government, bookkeeping, chartered accountant" />
@@ -13,8 +14,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<!-- Scripts -->
-	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 </head>
 
 <body>
@@ -54,7 +53,7 @@
 				1500s, when an unknown printer took a galley of type and scrambled it to.</p>
 				<p><a class="btn btn-green btn-lg" role="button" href="#contact">CONTACT US</a></p>
 			</div>
-	  </div>
+	  	</div>
 	</div>
 
 	<section id="approach" class="container-fluid">
@@ -71,11 +70,11 @@
 			<div class="col-md-8 tab-content">
 				<div class="tab-pane fade in active" id="default">
 					<p>The Rankin Spence Group Inc. is an accounting and bookkeeping firm with over 30 years of experience delivering full-cycle 
-					accounting and bookkeeping excellence to small and medium-sized enterprises. </br></br>
+					accounting and bookkeeping excellence to small and medium-sized enterprises. </br>
 					We have a variety of clients from small partnerships to businesses that run a multi-shift operation. We work with organizations 
 					in the private and not-for-profit sector – from car dealerships, light manufacturers and travel agencies to construction companies 
 					and union halls. Each client teaches us something about the business of accounting and we bring that collective knowledge and 
-					experience to our work with every client.</br></br>
+					experience to our work with every client.</br>
 					But we aren’t just skilled technicians and experienced veterans. We also know that to keep the financial side of your business 
 					humming, the three dimensions of the accounting eco-system need to be working well together:</br>
 					People 	• 	Processes 	• 	Professionals</p>
@@ -91,13 +90,14 @@
 				</div>
 			</div>
 		</div>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<div class="top-link">
+			<a class="top-link" href="#"><i class="fa fa-long-arrow-up"></i> Back to top</a>
+		</div>
 	</section>
 
 	<section id="services" class="container-fluid alt">
 		<img class="center-block title" src="assets/images/our_services.png" />
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<div id="services-carousel" class="carousel slide" data-ride="carousel">
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
@@ -120,20 +120,28 @@
 		    <div class="item col-md-8 col-md-offset-2">
 		      	<h2>From <strong>opening entry</strong> to <strong>year-end</strong></h2>
 				<p>We offer a complete range of full-cycle accounting and bookkeeping support working directly with you and the people in your organization responsible for the various business functions.
+					<li>Full-service bookkeeping</li>
+					<li>Cloud-based bookkeeping</li>
+					<li>Government liaison</li>
+					<li>Management accounting and reporting</li>
+					<li>Bookkeeping software consulting </li>
 				</p>
 				<p><a class="btn btn-green-inverse btn-lg" role="button" href="services.html">VIEW SERVICES</a></p>
 		  	</div>
 		  </div>
 
 		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		  <a class="left carousel-control" href="#services-carousel" role="button" data-slide="prev" onclick="$('#services-carousel').carousel('prev')">
 		    <span class="glyphicon glyphicon-chevron-left"></span>
 		    <span class="sr-only">Previous</span>
 		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		  <a class="right carousel-control" href="#services-carousel" role="button" data-slide="next" onclick="$('#services-carousel').carousel('next')">
 		    <span class="glyphicon glyphicon-chevron-right"></span>
 		    <span class="sr-only">Next</span>
 		  </a>
+		</div>
+		<div class="top-link">
+			<a class="top-link" href="#"><i class="fa fa-long-arrow-up"></i> Back to top</a>
 		</div>
 	</section>
 
@@ -150,6 +158,9 @@
 			<div class="col-md-8">
 				<p>Laurie has been working since she was 15 years old, finishing high school and university while fully immersed in the often contradictory worlds of manufacturing and retail. Her first full-time job was working in an injection-molding factory where, at the age of 17, she was responsible for running the weekend shift while attending school full-time. That’s also where Laurie migrated into the office and developed a passion for the accounting function. With a business degree from the University of Toronto under her belt, Laurie began exploring the world of finance from a variety of perspectives, eventually working as a Controller for a Fortune 500 company and even doing a stint as a personal financial advisor. Motivated by the challenge of improving processes and people, Laurie began sharing her direct, matter-of-fact style and accounting acumen with multiple business clients in 1991 under the name Rankin Management Services. In 2014, she expanded her ability to serve more clients by inviting other professionals to join her in establishing the Rankin-Spence Group. In her spare time, Laurie can be found wandering the world, seeking new places to enjoy a good book, a great meal and a fine handbag.</p>
 			</div>
+		</div>
+		<div class="top-link">
+			<a class="top-link" href="#"><i class="fa fa-long-arrow-up"></i> Back to top</a>
 		</div>
 	</section>
 
@@ -176,12 +187,13 @@
 	<footer>
 		<img class="center-block" src="assets/images/logo2.png" />
 		<hr/>
-		<p>2014 © RANKIN SPENCE GROUP. All rights reserved.</p>
+		<p>2014 <i class="fa fa-copyright"></i> RANKIN SPENCE GROUP. All rights reserved.</p>
 	</footer>
 
+	<!-- Scripts -->
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-
 </body>
 </html>
