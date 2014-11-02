@@ -129,6 +129,25 @@ section .title {
 .carousel-control.left {
 	background-image: none;
 }
+.service-list {
+	border: 2px solid #e1e1e1;
+	list-style: none;
+	padding: 0;
+	margin-left: 20px;
+	text-align: left;
+}
+.service-list li {
+	padding: 0 15px;
+}
+.service-list h3 {
+	background-color: #ebebeb;
+	border-bottom: 2px solid #e1e1e1;
+	font-size: 16px;
+	margin: 0;
+	padding: 8px 0;
+	text-align: center;
+}
+
 
 .employee {
 	color: #d1d72c;
