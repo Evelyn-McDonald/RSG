@@ -200,3 +200,11 @@ footer img {
 footer hr {
 	border-color: #a0a0a0;
 }
+
+
+
+/* services.html */
+.panel-default > .panel-heading {
+	background-color: #fff;
+	border-bottom: solid 2px #d1d72c;
+}
