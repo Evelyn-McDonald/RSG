@@ -207,13 +207,13 @@ footer hr {
 
 
 /* services.html */
-#service-page {
+.service-page {
 	color: #8d8d8d;
 	font-family: 'Lato', sans-serif;
 	line-height: 200%;
 	padding: 55px 0;
 }
-h1 {
+.overlap {
 	color: #d1d72c;
 	text-align: center;
 	font-size: 30px;
