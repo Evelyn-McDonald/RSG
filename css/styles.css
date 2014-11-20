@@ -133,13 +133,13 @@ section .title {
 	text-align: center;
 }
 .service-list {
-	border: 2px solid #e1e1e1;
+	/*border: 2px solid #e1e1e1;*/
 	list-style: none;
 	padding: 0;
 	margin-left: 20px;
 	text-align: left;
 }
-.service-list li {
+.service-list i {
 	padding: 0 15px;
 }
 .service-list h3 {
