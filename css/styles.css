@@ -33,6 +33,12 @@
 .top-link:hover {
 	color: #d1d72c;
 }
+[data-toggle="tooltip"] {
+	display: inline-block;
+	font-style: italic;
+	text-decoration: underline;
+}
+
 
 .navbar-default .navbar-nav > li > a {
 	color: #b2b2b2;

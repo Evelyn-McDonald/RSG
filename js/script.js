@@ -4,3 +4,7 @@ $(document).ready(
     $(".jumbotron h1").addClass("load"); 
   }, 600)
 );
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
